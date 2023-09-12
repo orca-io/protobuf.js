@@ -1,5 +1,21 @@
 # Changelog
 
+## [7.2.5](https://github.com/protobufjs/protobuf.js/compare/protobufjs-v7.2.4...protobufjs-v7.2.5) (2023-08-21)
+
+
+### Bug Fixes
+
+* crash in comment parsing ([#1890](https://github.com/protobufjs/protobuf.js/issues/1890)) ([eaf9f0a](https://github.com/protobufjs/protobuf.js/commit/eaf9f0a5a4009a8981c69af78365dfc988ed925b))
+* deprecation warning for new Buffer ([#1905](https://github.com/protobufjs/protobuf.js/issues/1905)) ([e93286e](https://github.com/protobufjs/protobuf.js/commit/e93286ef70d2e673c341ac08a192cc2abe6fd2eb))
+* possible infinite loop when parsing option ([#1923](https://github.com/protobufjs/protobuf.js/issues/1923)) ([f2a8620](https://github.com/protobufjs/protobuf.js/commit/f2a86201799af5842e1339c22950abbb3db00f51))
+
+## [7.2.4](https://github.com/protobufjs/protobuf.js/compare/protobufjs-v7.2.3...protobufjs-v7.2.4) (2023-06-23)
+
+
+### Bug Fixes
+
+* do not let setProperty change the prototype ([#1899](https://github.com/protobufjs/protobuf.js/issues/1899)) ([e66379f](https://github.com/protobufjs/protobuf.js/commit/e66379f451b0393c27d87b37fa7d271619e16b0d))
+
 ## [7.2.3](https://github.com/protobufjs/protobuf.js/compare/protobufjs-v7.2.2...protobufjs-v7.2.3) (2023-03-27)
 
 
